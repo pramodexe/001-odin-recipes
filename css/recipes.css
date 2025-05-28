@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  gap: 0.7rem;
+  padding: 1rem 0;
+}
+
+.hero-area {
+  margin: 0 auto;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading h1 {
+  padding: 2.5rem 0 3rem 0;
+  font-size: 3rem;
+}
+
+.heading p {
+  width: 45%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.03rem;
+  line-height: 2.3rem;
+}
+
+.cover {
+  text-align: center;
+}
+
+.cover img {
+  padding: 1rem 0;
+  width: 35%;
+  border-radius: 3rem;
+}
+
+.content {
+  margin: 2rem 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content h3 {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.content ul {
+  line-height: 2.5rem;
+  list-style-type: none;
+}
+
+.content i {
+  margin-right: 1rem;
+}
+
+footer {
+  text-align: center;
+  font-weight: 600;
+  /* background-color: #2f2f2f;
+  color: #fff; */
+  padding: 5rem 0 2rem 0;
+}
